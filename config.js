@@ -13,15 +13,15 @@ const weddingConfig = {
     // ==========================================
     couple: {
         groom: {
-            fullName: "Nguyễn Văn Công",           // Tên đầy đủ chú rể
-            firstName: "Văn Công",                 // Tên gọi ngắn
+            fullName: "Nguyễn Chào",               // Tên đầy đủ chú rể
+            firstName: "Nguyễn Chào",              // Tên gọi ngắn
             phone: "0999999999",                 // Số điện thoại (tùy chọn)
             facebook: "",                        // Link Facebook (tùy chọn)
             instagram: "",                       // Link Instagram (tùy chọn)
         },
         bride: {
-            fullName: "Nguyễn Thị Thơ",          // Tên đầy đủ cô dâu
-            firstName: "Nguyễn Thơ",               // Tên gọi ngắn
+            fullName: "Nguyễn Hương",              // Tên đầy đủ cô dâu
+            firstName: "Nguyễn Hương",             // Tên gọi ngắn
             phone: "0888888888",                 // Số điện thoại (tùy chọn)
             facebook: "",                        // Link Facebook (tùy chọn)
             instagram: "",                       // Link Instagram (tùy chọn)
