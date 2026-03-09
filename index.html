@@ -1604,37 +1604,94 @@
         .calendar-container {
             position: relative;
             width: 100%;
-           
-          
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 30px 20px;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
         }
 
-        .calendar-image {
-            width: 100%;
-            height: auto;
-            display: block;
+        .calendar-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            letter-spacing: 6px;
+            color: #333;
+            text-transform: uppercase;
+            margin-bottom: 2px;
+            text-align: center;
         }
 
-        .select-date-29 {
+        .calendar-subtitle {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .calendar-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            table-layout: fixed;
+        }
+
+        .calendar-table thead tr {
+            background: #f5d0d6;
+        }
+
+        .calendar-table th {
+            font-family: 'Playfair Display', serif;
+            font-size: 15px;
+            font-weight: 600;
+            color: #333;
+            padding: 10px 0;
+            letter-spacing: 1px;
+            width: calc(100% / 7);
+        }
+
+        .calendar-table td {
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+            color: #444;
+            padding: 12px 0;
+        }
+
+        .calendar-table td.sunday {
+            font-weight: 700;
+            color: #222;
+        }
+
+        .calendar-table td.highlight {
+            color: #c41e3a;
+            font-weight: 700;
+        }
+
+        .calendar-table td.highlight .day-wrap {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background: #f5d0d6;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .calendar-table td.highlight .select-date-img {
             position: absolute;
-            bottom: 16%;
-            right: 21%;
-            width: 9.5%;
-            height: auto;
-            aspect-ratio: 1/1;
+            top: 0%;
+            left: -15%;
+            transform: translate(-50%, -50%);
+            width: 48px;
+            height: 48px;
+            pointer-events: none;
             animation: bounce 2s ease-in-out infinite;
         }
 
-        .select-date-30 {
-            position: absolute;
-            bottom: 16%;
-            right: 9.5%;
-            width: 9.5%;
-            height: auto;
-            aspect-ratio: 1/1;
-            animation: bounce 2s ease-in-out infinite 0.3s;
+        .calendar-table td.highlight:nth-child(7) .select-date-img {
+            animation-delay: 0.3s;
         }
 
         @keyframes bounce {
@@ -1831,10 +1888,78 @@
         <!-- Calendar Section -->
         <section class="parent-info-section scroll-reveal">
            <div class="calendar-container">
-                    <img src="image2/calendar.png" alt="Calendar" class="calendar-image">
-                    <img src="image2/select_date.png" alt="Selected Date 29" class="select-date-29">
-                    <img src="image2/select_date.png" alt="Selected Date 30" class="select-date-30">
-                </div>
+                <div class="calendar-title">Save the Date</div>
+                <div class="calendar-subtitle">Tháng 3 - 2026</div>
+                <table class="calendar-table">
+                    <thead>
+                        <tr>
+                            <th>T2</th>
+                            <th>T3</th>
+                            <th>T4</th>
+                            <th>T5</th>
+                            <th>T6</th>
+                            <th>T7</th>
+                            <th>CN</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="sunday">1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td class="sunday">8</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td class="sunday">15</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td class="sunday">22</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td class="highlight"><span class="day-wrap">28<img src="image2/select_date.png" alt="" class="select-date-img"></span></td>
+                            <td class="highlight sunday"><span class="day-wrap">29<img src="image2/select_date.png" alt="" class="select-date-img"></span></td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>31</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
         
         <!-- Event Details -->
