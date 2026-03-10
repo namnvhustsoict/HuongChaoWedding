@@ -71,11 +71,14 @@ const weddingConfig = {
         district: "Thuận Thành",                   // Quận/Huyện - THAY ĐỔI
         city: "Bắc Ninh",               // Thành phố
         
-        // Link Google Maps
-        googleMapsUrl: "https://maps.app.goo.gl/PP57rDnyXbgNEVbM8",
         
-        // Embed Google Maps (lấy từ Google Maps > Share > Embed)
-        googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7176.46950918691!2d106.6573604!3d10.7965823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529d96e56d9bd%3A0x205428f74d7f4ddb!2sThe%20ADORA%20Center!5e1!3m2!1svi!2s!4v1739789062931!5m2!1svi!2s"
+        // Google Maps nhà chú rể
+        groomMapUrl: "https://maps.app.goo.gl/7jSVm5KKXkPzs11g9",
+        groomMapEmbed: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4319.942201321185!2d106.0239881!3d21.0492232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAyJzU3LjIiTiAxMDbCsDAxJzI2LjQiRQ!5e1!3m2!1sen!2s!4v1773162285069!5m2!1sen!2s",
+
+        // Google Maps nhà cô dâu
+        brideMapUrl: "https://maps.app.goo.gl/2AXKaVLrscUUPbXw9",
+        brideMapEmbed: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4319.903053798177!2d106.02435829999999!3d21.0505723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAzJzAyLjEiTiAxMDbCsDAxJzI3LjciRQ!5e1!3m2!1sen!2s!4v1773162008829!5m2!1sen!2s"
     },
 
     // ==========================================
