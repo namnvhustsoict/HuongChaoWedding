@@ -86,7 +86,7 @@ const weddingConfig = {
     // ==========================================
     images: {
         // Ảnh preview (OG image, favicon, Twitter card)
-        previewImage: "https://namnvhustsoict.github.io/HuongChaoWedding/images/1(15).jpg",
+        previewImage: "https://huong-chao-wedding.vercel.app/images/preload.jpg",
 
         // Album ảnh cưới (6 ảnh)
         gallery: [
