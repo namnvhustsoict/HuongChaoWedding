@@ -82,6 +82,9 @@ const weddingConfig = {
     // HÌNH ẢNH (CDN URLs hoặc Google Drive)
     // ==========================================
     images: {
+        // Ảnh preview (OG image, favicon, Twitter card)
+        previewImage: "https://namnvhustsoict.github.io/HuongChaoWedding/images/1(15).jpg",
+
         // Album ảnh cưới (6 ảnh)
         gallery: [
             "images/1(1).jpg", 

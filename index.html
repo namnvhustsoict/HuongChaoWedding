@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Hân hạnh kính mời quý khách tham dự lễ thành hôn của Nguyễn Chào và Nguyễn Hương vào lúc 13:00 Chủ Nhật, ngày 29 tháng 3 năm 2026. Trân trọng kính mời!">
+    <meta name="description" content="Hân hạnh kính mời quý khách tham dự lễ thành hôn của Nguyễn Chào và Nguyễn Hương vào lúc 12:00 Chủ Nhật, ngày 29 tháng 3 năm 2026. Trân trọng kính mời!">
     <meta name="keywords" content="thiệp cưới, thư mời cưới, Nguyễn Chào, Nguyễn Hương, đám cưới 2026, wedding invitation, lễ thành hôn">
     <meta name="author" content="Nguyễn Chào & Nguyễn Thị Hương">
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph Meta Tags (Facebook, Messenger, LinkedIn) -->
     <meta property="og:site_name" content="Thư mời cưới Nguyễn Chào & Nguyễn Hương">
-    <meta property="og:title" content="Thư Mời Cưới Nguyễn Chào & Nguyễn Hương - 29/3/2026">
-    <meta property="og:description" content="Hân hạnh kính mời quý khách tham dự lễ thành hôn vào lúc 13:00 Chủ Nhật, ngày 29/3/2026. Trân trọng kính mời!">
+    <meta property="og:title" content="Thư mời cưới Nguyễn Chào, Nguyễn Hương Happy Wedding Love you 3000">
+    <meta property="og:description" content="Hân hạnh kính mời quý khách tham dự lễ thành hôn vào lúc 12:00 Chủ Nhật, ngày 29/3/2026. Trân trọng kính mời!">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://namnvhustsoict.github.io/HuongChaoWedding">
-    <meta property="og:image" content="https://namnvhustsoict.github.io/HuongChaoWedding/images/1(19).jpg">
-    <meta property="og:image:secure_url" content="https://namnvhustsoict.github.io/HuongChaoWedding/images/1(19).jpg">
+    <meta property="og:image" content="" id="ogImage">
+    <meta property="og:image:secure_url" content="" id="ogImageSecure">
     <meta property="og:image:type" content="image/jpeg">
-    <link rel="icon" href="https://namnvhustsoict.github.io/HuongChaoWedding/images/1(19).jpg" sizes="16x16">
+    <link rel="icon" href="" sizes="16x16" id="faviconSmall">
     <meta property="og:image:alt" content="Ảnh cưới Nguyễn Chào và Nguyễn Thị Hương - Lễ thành hôn 29/3/2026">
     <meta property="og:locale" content="vi_VN">
   
@@ -30,7 +30,7 @@
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Thư Mời Cưới Nguyễn Chào & Nguyễn Hương - 29/3/2026">
-    <meta name="twitter:description" content="Hân hạnh kính mời quý khách tham dự lễ thành hôn vào lúc 13:00 Chủ Nhật, ngày 29/3/2026. Trân trọng kính mời!">
+    <meta name="twitter:description" content="Hân hạnh kính mời quý khách tham dự lễ thành hôn vào lúc 12:00 Chủ Nhật, ngày 29/3/2026. Trân trọng kính mời!">
     <meta name="twitter:image" content="https://namnvhustsoict.github.io/HuongChaoWedding/images/1(19).jpg">
     <meta name="twitter:image:alt" content="Ảnh cưới Nguyễn Chào và Nguyễn Thị Hương">
     
@@ -49,6 +49,16 @@
 
 
 
+    <script src="config.js"></script>
+    <script>
+        // Áp dụng ảnh preview từ config
+        (function() {
+            var img = weddingConfig.images.previewImage;
+            document.getElementById('ogImage').setAttribute('content', img);
+            document.getElementById('ogImageSecure').setAttribute('content', img);
+            document.getElementById('faviconSmall').setAttribute('href', img);
+        })();
+    </script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1747,7 +1757,7 @@
         <section class="hero ">
             <!-- Ảnh nền cặp đôi -->
             <div class="hero-background-image">
-                <img src="images/1(19).jpg" 
+                <img src="images/1(15).jpg" 
                      alt="Nguyễn Chào & Nguyễn Hương">
             </div>
             
@@ -1770,7 +1780,7 @@
                 
                 <!-- Thời gian -->
                 <div class="hero-time-info" id="heroTimeInfo">
-                    13:00 - Chủ Nhật
+                    12:00 - Chủ Nhật
                 </div>
                 
                 <!-- Ngày tháng năm -->
@@ -1860,7 +1870,7 @@
                     <div class="parent-info-family">
                         <div class="parent-info-label">NHÀ GÁI</div>
                         <br>
-                        <div class="parent-info-parent-name">Ông Nguyễn Văn Phà</div>
+                        <div class="parent-info-parent-name">Ông  Nguyễn Đình Đại</div>
                         <div class="parent-info-parent-name">Bà Nguyễn Thị Phà</div>
                         <div class="parent-info-address">
                              TDP Trà Lâm, Trí Quả<br>Bắc Ninh
@@ -2044,7 +2054,7 @@
             <div style="text-align: center; width: 100%; max-width: 450px; margin: 0px auto; padding: 0px 0px; background: #ffffff; ">
                 <div style="font-family: 'Dancing Script', cursive; font-size: 42px; font-weight: 400; color: #000000;  text-shadow: 1px 1px 2px rgba(0,0,0,0.1); margin-top: 20px;">Lễ Thành Hôn</div>
                 <div style="font-family: 'Dancing Script', cursive; font-size: 18px; color: #666; margin-bottom: 10px; letter-spacing: 1px;">~ Vào Lúc ~</div>
-                <div style="font-family: 'Dancing Script', cursive; font-size: 32px; font-weight: 400; color: #000000;  text-shadow: 0 2px 4px rgba(0,0,0,0.1); line-height: 1;">13h00</div>
+                <div style="font-family: 'Dancing Script', cursive; font-size: 32px; font-weight: 400; color: #000000;  text-shadow: 0 2px 4px rgba(0,0,0,0.1); line-height: 1;">12h00</div>
                 
                 <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin: 10px 0;">
                     <div id="weddingDow" style="font-family: 'Dancing Script', cursive; font-size: 22px; color: #333; font-weight: 600; opacity: 0; animation: slideInFromLeft 3.5s ease-out 0.5s forwards; margin-right: 20px;">Chủ Nhật</div>
@@ -2255,14 +2265,9 @@
             <h3 style="font-family: 'Dancing Script', cursive; font-size: 28px; color: #c41e3a; margin-bottom: 20px;">Gửi Mừng Cưới Chú Rể</h3>
             <div class="bank-card" >
                 <div style="margin-bottom: 20px; text-align: center;">
-                    <img src="images/qrtrai.jpeg" alt="QR Code Chú Rể" style="width: 250px; height: 250px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+                    <img src="images/qrtrai.png" alt="QR Code Chú Rể" style="width: 250px; height: 250px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
                 </div>
-                <p style="font-size: 14px; color: #000000;">Ngân hàng</p>
-                <p style="font-size: 18px; color: #000000;">MBBank</p>
-                <p class="account-number" id="groomAccount" style="color: #000000; font-weight: 700; font-size: 24px;">6860129096666</p>
-                <p style="font-size: 18px; color: #000000;">NGUYỄN CHÀO</p>
-                <button onclick="copyGroomAccount()" style="background: transparent; color: #000000; padding: 10px 30px; border: 2px solid #000000; border-radius: 25px; font-family: 'Dancing Script', cursive; font-size: 16px; cursor: pointer; margin-top: 15px; font-weight: 600;">📋 Sao chép STK</button>
-            </div>
+               
         </div>
     </div>
 
@@ -2273,13 +2278,9 @@
             <h3 style="font-family: 'Dancing Script', cursive; font-size: 28px; color: #e91e63; margin-bottom: 20px;">GửiMừng Cưới Cô Dâu</h3>
             <div class="bank-card" >
                 <div style="margin-bottom: 20px; text-align: center;">
-                    <img src="images/qrgai.jpeg" alt="QR Code Cô Dâu" style="width: 250px; height: 250px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+                    <img src="images/qrgai.png" alt="QR Code Cô Dâu" style="width: 250px; height: 250px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
                 </div>
-                <p style="font-size: 14px; color: #000000;">Ngân hàng</p>
-                <p style="font-size: 18px; color: #000000;">MBBank</p>
-                <p class="account-number" id="brideAccount" style="color: #000000; font-weight: 700; font-size: 24px;">0356258333</p>
-                <p style="font-size: 18px; color: #000000;">NGUYỄN THỊ HƯƠNG</p>
-                <button onclick="copyBrideAccount()" style="background: transparent; color: #000000; padding: 10px 30px; border: 2px solid #000000; border-radius: 25px; font-family: 'Dancing Script', cursive; font-size: 16px; cursor: pointer; margin-top: 15px; font-weight: 600;">📋 Sao chép STK</button>
+                
             </div>
         </div>
     </div>
@@ -2300,12 +2301,12 @@
 
         // --- Lễ Thành Hôn ---
         const WEDDING_DAY      = '29';          // Ngày lễ thành hôn
-        const WEDDING_MONTH    = 'Tháng 3';    // Tháng lễ thành hôn
+        const WEDDING_MONTH    = 'Tháng 03';    // Tháng lễ thành hôn
         const WEDDING_YEAR     = 'Năm 2026';   // Năm lễ thành hôn
         const WEDDING_DOW      = 'Chủ Nhật';   // Thứ trong tuần
         const WEDDING_LUNAR    = '(Ngày 02 tháng 02 năm Bính Ngọ)'; // Âm lịch thành hôn
         const WEDDING_DATE_FULL = WEDDING_DAY + '.' + WEDDING_MONTH.replace('Tháng ', '') + '.2026';
-        const WEDDING_DATETIME  = '2026-03-29T13:00:00'; // Cho đồng hồ đếm ngược
+        const WEDDING_DATETIME  = '2026-03-29T12:00:00'; // Cho đồng hồ đếm ngược
         // ===========================================
 
         // Cập nhật tên lên tất cả vị trí trong trang
@@ -2320,7 +2321,7 @@
 
         // Cập nhật ngày tháng lên trang
         document.getElementById('heroDateLarge').textContent = WEDDING_DATE_FULL;
-        document.getElementById('heroTimeInfo').textContent  = '13:00 - ' + WEDDING_DOW;
+        document.getElementById('heroTimeInfo').textContent  = '12:00 - ' + WEDDING_DOW;
 
         // Tiệc cưới nhà Trai
         document.getElementById('partyDow1').textContent   = PARTY_DOW;
