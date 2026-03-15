@@ -51,7 +51,7 @@ const weddingConfig = {
         date: "2025-11-30",                     // Định dạng: YYYY-MM-DD
         time: "13:00",                          // Giờ tổ chức (24h format)
         dayOfWeek: "Chủ Nhật",                   // Thứ trong tuần
-        lunarDate: "ngày 11 tháng 10 năm Ất Tỵ", // Âm lịch
+        lunarDate: "ngày 11 tháng 02 năm Bính Ngọ", // Âm lịch
         
         // Hiển thị đẹp
         displayDate: {
